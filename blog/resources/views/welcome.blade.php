@@ -27,44 +27,14 @@
 
 <div class="body">
     <div class="content">
-        <div class="cart">
-            <div class="cart-img"></div>
-            <div class="info">
-                <div class="cart-text">Абоба</div>
-                <div class="cart-price">Бобаба</div>
-                <div class="btn">КУПИ</div>
-            </div>
-        </div>
-        <div class="cart">
-            <div class="cart-img"></div>
-            <div class="cart-text"></div>
-            <div class="cart-price"></div>
-            <div class="btn"></div>
-        </div>
-        <div class="cart">
-            <div class="cart-img"></div>
-            <div class="cart-text"></div>
-            <div class="cart-price"></div>
-            <div class="btn"></div>
-        </div>
-        <div class="cart">
-            <div class="cart-img"></div>
-            <div class="cart-text"></div>
-            <div class="cart-price"></div>
-            <div class="btn"></div>
-        </div>
-        <div class="cart">
-            <div class="cart-img"></div>
-            <div class="cart-text"></div>
-            <div class="cart-price"></div>
-            <div class="btn"></div>
-        </div>
+
+
+
     </div>
 </div>
 <footer>
     <div class="logo-info-foot">
         <div class="logo-foot"><img id="logo-img" src="./image/logo.png"></div>
-
         <hr id="hr">
         <div class="info-foot">Крупнейший<br> дистрибьютор автомасел и<br> спецжидкостей</div>
     </div>
@@ -76,5 +46,6 @@
     <div class="time"> 16:00 - 16:30</div>
 
 </footer>
+<script src="./js/js.js"></script>
 </body>
 </html>
