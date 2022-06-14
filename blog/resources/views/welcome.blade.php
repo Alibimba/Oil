@@ -17,7 +17,7 @@
         <div class="menu_right-side">
             <div class="menu_li"> Каталог</div>
 
-            <div class="menu_li"> Контакты</div>
+            <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li">О компании</div>
         </div>
     </div>
