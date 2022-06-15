@@ -53,6 +53,7 @@ body {
 #logo-img{
     width: 200px;
     height: 50px;
+
 }
 
 .body{
@@ -85,12 +86,13 @@ body {
     align-items: center;
 }
 .cart-img{
-    background: #718096;
+
     width: 200px;
     height: 200px;
     margin-top:20px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+
 
 }
 .cart-text{
@@ -171,12 +173,136 @@ footer{
     display: flex;
     flex-direction: column;
 
+
 }
 .chel_img{
     width: 200px;
     height: 300px;
     display: flex;
+    border: solid 4px black;
+    border-radius: 20px;
+    background: #e2e8f0;
+
+}
+#tre{
+    border-radius: 15px;
+
+}
+#tovar_img{
+    border-radius: 25px;
+    border: solid 2px black
+}
+
+
+
+.body2{
+    background: #2d3748;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center
+}
+.vse{
+    background: #131317;
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.comp{
+    background: #f7fafc;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.cet{
+    background: #f1231c;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+.opit{
+    background: #421421;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+.zaglovok{
+    background: #463252;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.info_img{
+    background: #846342;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.info_img{
+    background: #152542;
+    display: flex;
+
+}
+.img_cet{
+    background: #843264;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info_cet{
+    background: #257432;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+
+.zaglovok2{
+    background: #463252;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 
 }
 
 
+.info_img2{
+    background: #846342;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.img_opit{
+    background: #843264;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info_opit{
+    background: #257432;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.end{
+    width: 100%;
+    height: 0px;
+}
+#p{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}

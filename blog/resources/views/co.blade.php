@@ -16,10 +16,10 @@
             <img id="logo-img" src="./image/logo.png">
         </div>
         <div class="menu_right-side">
-            <div class="menu_li"> Каталог</div>
+            <div class="menu_li"onclick="location.href='/';"> Каталог</div>
 
             <div class="menu_li"> Контакты</div>
-            <div class="menu_li">О компании</div>
+            <div class="menu_li" onclick="location.href='/comp';">О компании </div>
         </div>
     </div>
 
@@ -31,31 +31,31 @@
 
 <div class="obsh">
     <div class="chel">
-        <div class="chel_img"><img id="1" src="./image/img_6.png" height="300" width="200"> </div>
+        <div class="chel_img"><img id="tre" src="./image/img_6.png" height="300" width="200"> </div>
         <div class="chel_name">ЧОНГУК</div>
         <div class="chel_dol">ВОКАЛИСт</div>
         <div class="chel_nomber">В ГРУППЕ ВК!!!!</div>
     </div>
     <div class="chel">
-        <div class="chel_img"><img  id="1" src="./image/img_7.png" height="300" width="200"></div>
+        <div class="chel_img"><img  id="tre" src="./image/img_7.png" height="300" width="200"></div>
         <div class="chel_name">Ченгунчек</div>
         <div class="chel_dol">Моет туалеты</div>
         <div class="chel_nomber">894828184</div>
     </div>
     <div class="chel">
-        <div class="chel_img"><img id="1" src="./image/img_8.png" height="300" width="200"></div>
+        <div class="chel_img"><img id="tre" src="./image/img_8.png" height="300" width="200"></div>
         <div class="chel_name">БАРБЕНДЕК</div>
         <div class="chel_dol">Моет окна</div>
         <div class="chel_nomber">8849491824</div>
     </div>
     <div class="chel">
-        <div class="chel_img"><img id="1" src="./image/img_9.png" height="300" width="200"></div>
+        <div class="chel_img"><img id="tre" src="./image/img_9.png" height="300" width="200"></div>
         <div class="chel_name">БАРАН</div>
         <div class="chel_dol">Моет тех, кто моет окна и туалеты</div>
         <div class="chel_nomber">Уже в твоих контактах)</div>
     </div>
     <div class="chel">
-        <div class="chel_img"><img id="1" src="./image/img_10.png" height="300" width="200"></div>
+        <div class="chel_img"><img id="tre" src="./image/img_10.png" height="300" width="200"></div>
         <div class="chel_name">КУШБЕЛЬДОН</div>
         <div class="chel_dol">КУШБЕЛЬДОН</div>
         <div class="chel_nomber">КУШБЕЛЬДОН</div>

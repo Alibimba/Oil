@@ -51,7 +51,7 @@ let productList = [
         title: 'Масло',
         price: '10',
         description: 'Aboba',
-        image: '<img src="./image/img.png" width="200" height="200">',
+        image: '<img src="./image/img.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
@@ -59,7 +59,7 @@ let productList = [
         title: 'Масло 2',
         price: '2000',
         description: 'Aboba',
-        image: '<img src="./image/img_1.png" width="200" height="200">',
+        image: '<img src="./image/img_1.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
@@ -67,7 +67,7 @@ let productList = [
         title: 'Масло 3',
         price: '500',
         description: 'Aboba',
-        image: '<img src="./image/img_2.png" width="200" height="200">',
+        image: '<img src="./image/img_2.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
@@ -75,7 +75,7 @@ let productList = [
         title: 'Масло 4',
         price: '1000',
         description: 'Aboba',
-        image: '<img src="./image/img_3.png" width="200" height="200">',
+        image: '<img src="./image/img_3.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
@@ -83,7 +83,7 @@ let productList = [
         title: 'Масло 5',
         price: '25000',
         description: 'Aboba',
-        image: '<img src="./image/img_4.png" width="200" height="200">',
+        image: '<img src="./image/img_4.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
@@ -91,7 +91,7 @@ let productList = [
         title: 'Масло 6',
         price: '2',
         description: 'Aboba',
-        image: '<img src="./image/img_5.png" width="200" height="200">',
+        image: '<img src="./image/img_5.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
 ]

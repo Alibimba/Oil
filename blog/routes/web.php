@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'welcome'])->name('welcome');
 Route::get('/co', [HomeController::class, 'co'])->name('co');
+Route::get('/comp', [HomeController::class, 'comp'])->name('comp');
 
