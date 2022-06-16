@@ -15,7 +15,7 @@
             <img id="logo-img" src="./image/logo.png">
         </div>
         <div class="menu_right-side">
-            <div class="menu_li"> Каталог</div>
+            <div class="menu_li"onclick="location.href='/';"> Каталог</div>
 
             <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li" onclick="location.href='/comp';">О компании</div>

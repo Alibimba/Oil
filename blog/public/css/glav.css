@@ -203,7 +203,6 @@ footer{
     justify-content: center
 }
 .vse{
-    background: #131317;
     width: 1500px;
     height: 100%;
     display: flex;
@@ -212,13 +211,15 @@ footer{
 }
 
 .comp{
-    background: #f7fafc;
+    background: #718096;
     width: 100%;
     height: 60px;
     display: flex;
+    margin-top: 50px;
+    justify-content: space-around
 }
 .cet{
-    background: #f1231c;
+
     width: 100%;
     height: 400px;
     display: flex;
@@ -226,40 +227,51 @@ footer{
 
 }
 .opit{
-    background: #421421;
+
+
     display: flex;
     width: 100%;
     height: 400px;
     flex-direction: column;
 }
 .zaglovok{
-    background: #463252;
+    background: #718096;
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center
 }
+
+#fbrs{
+    padding:60px;
+}
 .info_img{
-    background: #846342;
+    background: #718096;
     width: 100%;
     height: 100%;
     display: flex;
 }
 .info_img{
-    background: #152542;
+    background: #718096;
     display: flex;
 
+
+}
+
+#imagg{
+    border: solid 2px black;
+    border-bottom: none;
 }
 .img_cet{
-    background: #843264;
+    background: #718096;
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-around;
 }
 .info_cet{
-    background: #257432;
+    background: #718096;
     width: 50%;
     height: 100%;
     display: flex;
@@ -267,7 +279,7 @@ footer{
 
 
 .zaglovok2{
-    background: #463252;
+    background: #718096;
     width: 100%;
     height: 40px;
     display: flex;
@@ -278,20 +290,20 @@ footer{
 
 
 .info_img2{
-    background: #846342;
+    background: #718096;
     width: 100%;
     height: 100%;
     display: flex;
 }
 .img_opit{
-    background: #843264;
+    background: #718096;
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-around;
 }
 .info_opit{
-    background: #257432;
+    background: #718096;
     width: 50%;
     height: 100%;
     display: flex;
@@ -306,3 +318,8 @@ footer{
     margin-right: 60px;
     margin-top: 20px;
 }
+.chel_nomber{
+    color: #c62020;
+    cursor: pointer;
+}
+
