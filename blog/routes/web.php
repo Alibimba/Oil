@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', [HomeController::class, 'welcome'])->name('home');
 Route::get('/co', [HomeController::class, 'co'])->name('co');
 Route::get('/comp', [HomeController::class, 'comp'])->name('comp');

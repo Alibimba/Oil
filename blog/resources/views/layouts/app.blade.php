@@ -12,14 +12,16 @@
     @stack('style')
     <script src ="{{asset('js/sbaka.script.js')}}"></script>
     @auth()
+        <h2>LOG IN</h2>
     <script>
         window.onload = function (){
             let logoutBTN = document.querySelector('.logout-button');
             logoutBTN.addEventListener('click', function () {
-                document.forms['logout-form'].submit();
+                document.forms['user.logout'].submit();
             });
         }
     </script>
+
     @endauth
     <title>Document</title>
 </head>
@@ -35,6 +37,8 @@
 
             <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li" onclick="location.href='/comp';">О компании</div>
+            <button class="logout-button">Выйди</button>
+
         </div>
     </div>
 

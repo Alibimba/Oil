@@ -19,6 +19,9 @@
 
             <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li" onclick="location.href='/comp';">О компании</div>
+            @auth()
+                <div class="menu_li" >Еее ЛОГ ИН</div>
+            @endauth
         </div>
     </div>
 
