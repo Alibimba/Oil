@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('style')
-    <link rel="stylesheet" href="{{ asset('css/logigi.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/glav.css') }}">
 @endpush
 
 @section('content')
@@ -30,7 +30,7 @@
         </div>
 
         <div class="container signin">
-            <p>Ты уже животное? <a href="{{route('login')}}" class="@if(Request::is('/logigi')) active-a @endif">Войди в животное</a>.</p>
+            <p>Ты уже животное? <a href="{{route('login')}}" class="@if( request()->get('login')) active-a @endif">Войди в животное</a>.</p>
         </div>
     </form>
 @endsection

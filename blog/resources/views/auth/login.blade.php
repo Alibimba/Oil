@@ -26,7 +26,7 @@
             </div>
 
             <div class="container signin">
-                <p>Вы ещё не животное? <a href="{{route('register')}}" class="@if(Request::is('/register')) active-a @endif">Стань имз</a>.</p>
+                <p>Вы ещё не животное? <a href="{{route('register')}}" class="@if(request()->get('register')) active-a @endif">Стань имз</a>.</p>
             </div>
         </form>
 @endsection

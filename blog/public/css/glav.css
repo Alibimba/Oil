@@ -9,6 +9,7 @@ body {
     color: #131317;
 
 
+
 }
 .menu {
     width: 100%;
@@ -356,7 +357,25 @@ footer{
     display: flex;
 
 }
+.registerbtn{
+    cursor: pointer;
+    background: #c62020;
+    transition: 150ms;
+}
+.registerbtn:hover{
+    background: #6f1c2e;
+    color: #fce68e;
+}
+.registerbtn {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
 
+    align-items: center;
+}
 
 
 
