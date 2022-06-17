@@ -26,12 +26,15 @@
 </div>
 
 <div class="body">
+
     <div class="content">
 
 
 
     </div>
+
 </div>
+
 <footer>
     <div class="logo-info-foot">
         <div class="logo-foot"><img id="logo-img" src="./image/logo.png"></div>

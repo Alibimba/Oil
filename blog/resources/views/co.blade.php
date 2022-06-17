@@ -30,36 +30,40 @@
 
 
 <div class="obsh">
-    <div class="chel">
-        <div class="chel_img"><img id="tre" src="./image/img_6.png" height="300" width="200"> </div>
-        <div class="chel_name">Курбатова Дарина Алексеевна</div>
-        <div class="chel_dol">Офис-менеджер</div>
-        <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
+    <div class="lenta"><img src="./image/img_14.png" height="200" width="700"></div>
+    <div class="cheliki">
+        <div class="chel">
+            <div class="chel_img"><img id="tre" src="./image/img_6.png" height="300" width="200"> </div>
+            <div class="chel_name">Курбатова Дарина Алексеевна</div>
+            <div class="chel_dol">Офис-менеджер</div>
+            <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
+        </div>
+        <div class="chel">
+            <div class="chel_img"><img  id="tre" src="./image/img_7.png" height="300" width="200"></div>
+            <div class="chel_name">Семенов Дмитрий Алексеевич</div>
+            <div class="chel_dol">Менеджер по продажам</div>
+            <div class="chel_nomber"href="#">+7 (919) 560-54-64</div>
+        </div>
+        <div class="chel">
+            <div class="chel_img"><img id="tre" src="./image/img_8.png" height="300" width="200"></div>
+            <div class="chel_name">Кстенин Александр Васильевич</div>
+            <div class="chel_dol">Бренд-менеджер</div>
+            <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
+        </div>
+        <div class="chel">
+            <div class="chel_img"><img id="tre" src="./image/img_9.png" height="300" width="200"></div>
+            <div class="chel_name">Мезенцев Николай Владимирович</div>
+            <div class="chel_dol">Офис-менеджер</div>
+            <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
+        </div>
+        <div class="chel">
+            <div class="chel_img"><img id="tre" src="./image/img_10.png" height="300" width="200"></div>
+            <div class="chel_name">Фёдор Никитченко</div>
+            <div class="chel_dol">Менеджер по продажам</div>
+            <div class="chel_nomber" href="#">+7 (908) 832-06-40</div>
+        </div>
     </div>
-    <div class="chel">
-        <div class="chel_img"><img  id="tre" src="./image/img_7.png" height="300" width="200"></div>
-        <div class="chel_name">Семенов Дмитрий Алексеевич</div>
-        <div class="chel_dol">Менеджер по продажам</div>
-        <div class="chel_nomber"href="#">+7 (919) 560-54-64</div>
-    </div>
-    <div class="chel">
-        <div class="chel_img"><img id="tre" src="./image/img_8.png" height="300" width="200"></div>
-        <div class="chel_name">Кстенин Александр Васильевич</div>
-        <div class="chel_dol">Бренд-менеджер</div>
-        <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
-    </div>
-    <div class="chel">
-        <div class="chel_img"><img id="tre" src="./image/img_9.png" height="300" width="200"></div>
-        <div class="chel_name">Мезенцев Николай Владимирович</div>
-        <div class="chel_dol">Офис-менеджер</div>
-        <div class="chel_nomber"href="#">+7 (3522) 63-05-25</div>
-    </div>
-    <div class="chel">
-        <div class="chel_img"><img id="tre" src="./image/img_10.png" height="300" width="200"></div>
-        <div class="chel_name">Фёдор Никитченко</div>
-        <div class="chel_dol">Менеджер по продажам</div>
-        <div class="chel_nomber" href="#">+7 (908) 832-06-40</div>
-    </div>
+    <div class="lenta lenta_bottom"><img src="./image/img_14.png" height="200" width="700"></div>
 </div>
 
 
