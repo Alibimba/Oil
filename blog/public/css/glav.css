@@ -376,6 +376,10 @@ footer{
 
     align-items: center;
 }
+.logout-button{
+    text-decoration: none;
+    color: #c62020;
+}
 
 
 

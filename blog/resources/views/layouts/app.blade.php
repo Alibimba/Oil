@@ -12,12 +12,12 @@
     @stack('style')
     <script src ="{{asset('js/sbaka.script.js')}}"></script>
     @auth()
-        <h2>LOG IN</h2>
+
     <script>
         window.onload = function (){
             let logoutBTN = document.querySelector('.logout-button');
             logoutBTN.addEventListener('click', function () {
-                document.forms['user.logout'].submit();
+                document.forms['logout-form'].submit();
             });
         }
     </script>
@@ -37,7 +37,12 @@
 
             <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li" onclick="location.href='/comp';">О компании</div>
-            <button class="logout-button">Выйди</button>
+            @auth()
+                <a href="">{{ auth()->user()->name }}</a>
+                <a href="#" class="logout-button"> Выход </a>
+                <form action="{{ route('logout-form') }}" method="post" name="logout-form">
+                @csrf
+            @endauth
 
         </div>
     </div>

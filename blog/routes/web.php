@@ -28,5 +28,5 @@ Route::get('/register', [RegisterController::class, 'show'])->name('register');
 Route::post('/login/submit', [LoginController::class, 'submit'])->name('login.submit');
 Route::post('/register/create', [RegisterController::class, 'create'])->name('register.create');
 
-Route::post('/user/logout', [UserController::class, 'logout'])->name('user.logout');
+Route::post('/user/logout', [UserController::class, 'logout'])->name('logout-form');
 

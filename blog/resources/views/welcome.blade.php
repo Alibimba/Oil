@@ -20,7 +20,22 @@
             <div class="menu_li " onclick="location.href='/co';"> Контакты</div>
             <div class="menu_li" onclick="location.href='/comp';">О компании</div>
             @auth()
-                <div class="menu_li" >Еее ЛОГ ИН</div>
+
+                <script>
+                    window.onload = function (){
+                        let logoutBTN = document.querySelector('.logout-button');
+                        logoutBTN.addEventListener('click', function () {
+                            document.forms['logout-form'].submit();
+                        });
+                    }
+                </script>
+
+            @endauth
+            @auth()
+                <a href="">{{ auth()->user()->name }}</a>
+                <a href="#" class="logout-button"> Выход </a>
+                <form action="{{ route('logout-form') }}" method="post" name="logout-form">
+                @csrf
             @endauth
         </div>
     </div>
