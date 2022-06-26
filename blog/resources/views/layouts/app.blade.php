@@ -59,7 +59,7 @@
         <div class="info-foot">Крупнейший<br> дистрибьютор автомасел и<br> спецжидкостей</div>
     </div>
     <div class="contact">
-        <div class="contact-email">Email: <a href="#">Petya23@mail.ru</a></div>
+        <div class="contact-email">Email: <a href="#">OilMarket45@mail.ru</a></div>
         <div class="contact-email">Телефон: <a href="#">89637542734</a></div>
         <div class="contact-email">г. Курган, ул. Омская, 145, корп.1</div>
     </div>
