@@ -29,7 +29,7 @@ function createProductCard(element,parent) {
     let btn2 = document.createElement('div')
     btn2.classList.add('btn')
     info2.appendChild(btn2)
-    btn2.innerHTML = 'КУПИ'
+    btn2.innerHTML = 'КУПИТЬ'
 
 
 
@@ -48,50 +48,50 @@ let productList = [
 
     {
         id:1,
-        title: 'Масло',
-        price: '10',
+        title: 'Масло 5л',
+        price: '999',
         description: 'Aboba',
-        image: '<img src="./image/img.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_15.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
         id:2,
-        title: 'Масло 2',
-        price: '2000',
+        title: 'Sintec Platinum',
+        price: '549',
         description: 'Aboba',
-        image: '<img src="./image/img_1.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_16.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
         id:3,
-        title: 'Масло 3',
-        price: '500',
+        title: 'Rolf Energy',
+        price: '649',
         description: 'Aboba',
-        image: '<img src="./image/img_2.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_17.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
         id:4,
-        title: 'Масло 4',
-        price: '1000',
+        title: 'G-Energy 4',
+        price: '599',
         description: 'Aboba',
-        image: '<img src="./image/img_3.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_18.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
         id:5,
-        title: 'Масло 5',
-        price: '25000',
+        title: 'Mobil',
+        price: '799',
         description: 'Aboba',
-        image: '<img src="./image/img_4.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_19.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
     {
         id:6,
-        title: 'Масло 6',
-        price: '2',
+        title: 'Shel Motor Oil',
+        price: '499',
         description: 'Aboba',
-        image: '<img src="./image/img_5.png" id="tovar_img" width="200" height="200">',
+        image: '<img src="./image/img_20.png" id="tovar_img" width="200" height="200">',
         card:' ',
     },
 ]
